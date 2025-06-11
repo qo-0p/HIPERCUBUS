@@ -39,7 +39,7 @@
       continues without throwing “error” events in the console.
     */
     for (let i = 0; i < NUM_PARTICLE_IMAGES; i++) {
-      const path = `img${i + 1}.png`;
+      const path = `images/img${i + 1}.png`;
       particleImgs[i] = loadImage(
         path,
         () => {},   // success: nothing extra to do
